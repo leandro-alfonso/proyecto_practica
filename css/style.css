@@ -131,9 +131,8 @@ display: none;
 .btn {
     background: #FBCA1F;
     /* font-family: inherit; */
-    padding: 0.6em 1.3em;
     font-weight: 900;
-    font-size: 14px;
+    font-size: 13px;
     border: 2px solid black;
     border-radius: 0.4em;
     box-shadow: 0.1em 0.1em;
