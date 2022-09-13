@@ -20,6 +20,10 @@
     background: linear-gradient(to left, #ff8008, #ffc837);
 }
 
+.nav-link{
+    font-size: 1.8em;
+}
+
 .navbar-brand{
     padding: 0;
     margin: 0;
@@ -48,6 +52,13 @@
     flex-direction: column;
     align-items: center;
 }
+
+.contenedor__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .contenedor__parrafo{
     font-size: 2em;
     margin-bottom: 0rem;
@@ -95,6 +106,18 @@ width: 80%;
 display: none;
 }
 /* clases de botones */
+
+.btn__resultado{
+    border: none;
+    color: #fff;
+    background-image: linear-gradient(30deg, #0400ff, #4ce3f7);
+    border-radius: 20px;
+    background-size: 100% auto;
+    font-family: inherit;
+    font-size: 17px;
+    padding: 0.6em 1.5em;
+}
+
 .btn__test {
     cursor: pointer;
     width: 130px;
@@ -147,6 +170,21 @@ display: none;
     box-shadow: 0.05em 0.05em;
    } */
 
+   .btn__enlace{
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+    background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+    border-radius: 30px;
+    border: 1px solid #8F9092;
+    transition: all 0.2s ease;
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    color: #606060;
+    text-shadow: 0 1px #fff;
+   }
+
 
 /* clases de los swal */
 .swalTitulo{
@@ -159,6 +197,7 @@ display: none;
 }
 .test{
     display: none;
+    margin-top: 1rem;
 }
 
 /* test section*/
@@ -188,7 +227,40 @@ display: none;
     text-align: center;
 }
 
+/* proyecto */
+.body__proyecto{
+    background: #0575E6;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #021B79, #0575E6);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.main__proyecto{
+    margin-top: 2rem;
+}
+
+.proyecto__article{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.proyecto__div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.img__proyecto{
+    width: 500px;
+}
+
 @media screen and (max-width: 480px){
+    
+    .nav-link{
+        font-size: 1.5em;
+    }
+    /* test */
     .contenedor__segundoSection{
         flex-direction: column;
         gap: 2rem;
@@ -202,7 +274,39 @@ display: none;
         font-size: 2.5em;
     }
 
-    .nav-link{
-        font-size: 1.5em;
+    .contenedor__div{
+        width: 80%;
+    }
+
+    .contenedor__parrafo{
+        font-size: 1.6em;
+    }
+
+    .btn__div{
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    /* proyecto */
+    .proyecto__article{
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .img__proyecto{
+        width: 60%;
+    }
+
+    .proyecto__picture{
+        margin-bottom: 0.5rem;
+        display: flex;
+    justify-content: space-evenly;
+    }
+/* boton enlace */
+    .btn__enlace{
+        font-size: 14px;
+        width: 117px;
+        height: 26px;
     }
 }
