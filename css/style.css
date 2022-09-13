@@ -275,11 +275,11 @@ background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, 
     }
 
     .contenedor__div{
-        width: 80%;
+        width: 90%;
     }
 
     .contenedor__parrafo{
-        font-size: 1.6em;
+        font-size: 1.4em;
     }
 
     .btn__div{
