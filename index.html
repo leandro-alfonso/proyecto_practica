@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>dragonPersonajes</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img class="animate__animated animate__zoomIn logo" src="./img/logoo.png" alt=""></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./pages/test.html">test</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main class="contenedor">
+      <h1 class="contenedor__titulo">Proyecto prueba</h1>
+      <section class="contenedor__sectionImg">
+        <article class="contenedor__sectionArticle">
+          <picture class="contenedor__img">
+            <img class="contenedor__imagen" src="./img/saludo.png" alt="">
+          </picture>
+          <strong class="contenedor__parrafo">¡Saludos! ¡Bienvenido a mi página web!</strong>
+          <p class="contenedor__parrafo">acontinuacion veremos algunos eventos interesantes</p>
+        </article>
+      </section>
+      <section class="contenedor__primerSection">
+        <button id="btnAbrir" class="botonPersonajes">Mostrar</button>
+        <button id="btnCerrar" class="botonPersonajes">Ocultar</button>
+      </section>
+      <section id="personajeAbri"class="contenedor__segundoSection">
+        <article class="contenedor__article">
+          <picture class="contenedor__picture">
+              <img id="goku" class="animate__animated animate__zoomIn personajes" src="./img/goku.jpg" alt="">
+          </picture>
+            <div>
+              <button id="gokuFase2" class="btn">Goku ssj</button>
+              <button id="gokuFase3" class="btn">Goku ssj3</button>
+              <button id="gokuFase4" class="btn">Goku ssj4</button>
+            </div>
+        </article>
+        <article class="contenedor__article">
+          <picture class="contenedor__picture">
+              <img id="vegeta" class="animate__animated animate__zoomIn personajes" src="./img/vegeta.jpg" alt="">
+          </picture>
+            <div>
+              <button id="veguetaFase1" class="btn">vegetassj</button> 
+              <button id="veguetaFase2" class="btn">vegeta Magin</button>
+              <button id="veguetaFase4" class="btn">vegetaFase4</button>
+            </div>
+        </article>
+        <article class="contenedor__article">
+          <picture class="contenedor__picture">
+              <img id="trunks" class="animate__animated animate__zoomIn personajes" src="./img/trunks.jpg" alt="">
+          </picture>
+            <div>
+              <button id="trunksFase" class="btn">trunkssj</button>
+            </div>
+        </article>
+        <article class="contenedor__article">
+          <picture class="contenedor__picture">
+              <img id="gohan" class="animate__animated animate__zoomIn personajes" src="./img/gohan.jpg" alt="">
+          </picture>
+          <div>
+            <button id="gohanFase" class="btn">gohanssj</button>
+          </div>
+        </article>
+    </section>
+    </main>
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
