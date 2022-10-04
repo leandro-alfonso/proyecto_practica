@@ -13,6 +13,12 @@
   
 /*fin reset*/
 /* inicio nav */
+.body{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    min-height: 100vh;
+}
+
 .navbar{
     padding: 0rem;
     background: #ff8008;
@@ -66,6 +72,8 @@
 
 .contenedor__img{
     display: flex;
+    background: #ffeb3b;
+    border-radius: 200px;
 }
 
 .contenedor__imagen{
@@ -198,6 +206,7 @@ display: none;
 .test{
     display: none;
     margin-top: 1rem;
+    margin-bottom: 1.2rem;
 }
 
 /* test section*/
@@ -237,6 +246,7 @@ background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, 
 
 .main__proyecto{
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .proyecto__article{
@@ -254,7 +264,50 @@ background: linear-gradient(to bottom, #021B79, #0575E6); /* W3C, IE 10+/ Edge, 
 .img__proyecto{
     width: 500px;
 }
+/* footer */
 
+.foot{
+    display: none;
+}
+
+footer{
+    display: flex;
+    background-color: #c6c6c6;
+    justify-content: space-around;
+    margin-top: 1rem;
+}
+
+.footer__section{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+}
+
+.footer__div{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.footer__parrafo{
+    margin-bottom: 0rem;
+    font-size: 1em;
+    text-align: center;
+}
+
+.footer__redes{
+    display: flex;
+    width: 35%;
+    align-items: center;
+    padding-left: 0rem;
+    list-style-type: none;
+    margin-bottom: 0rem;
+    justify-content: space-evenly;
+}
+
+.img__footer{
+    width: 20px;
+}
 @media screen and (max-width: 480px){
     
     .nav-link{

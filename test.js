@@ -3,6 +3,7 @@ let hacer = document.getElementById("test2")
 let pancho = document.getElementById("test3")
 let paty = document.getElementById("test4")
 let testss = document.getElementById("tests")
+let foot =document.getElementById("footer")
 // capturando img
 let imgPerro = document.getElementById("imgContento")
 let imgDormir = document.getElementById("imgPensar")
@@ -21,6 +22,7 @@ let imgEstacion = document.getElementById("imgPensando")
     console.log(result)
     if (result.isConfirmed){
         testss.style.display = "block";
+        foot.style.display = "block";
     }else{
         alert("error")
     }
