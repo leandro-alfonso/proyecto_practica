@@ -82,7 +82,7 @@ function perros(){
     Swal.fire({
         icon: 'success',
         html: `<h1 class="swalTitulo">Correcto</h1>
-                <p class="swalParrafo">Creo que es el animal mas fiel que existe</p>`,
+                <p class="swalParrafo">El animal mas fiel que existe</p>`,
         imageUrl: '../img/perro.png',
         imageWidth: 400,
         imageHeight: 250,
